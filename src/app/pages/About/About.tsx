@@ -30,7 +30,7 @@ const About = () => {
   return (
     <main
       id="about"
-      className="bg-gradient-to-b from-black to-gray-900 text-white px-12 md:px-12 py-12 md:py-20 lg:px-16 lg:py-24 relative overflow-hidden"
+      className="bg-gradient-to-b from-black to-gray-900 text-white w-full py-12 md:py-20  lg:py-24 relative overflow-hidden"
     >
       <section className="flex flex-col-reverse lg:flex-row-reverse items-center justify-center gap-8">
         {/* Custom Cursor (Hidden on Small Screens) */}
@@ -43,18 +43,18 @@ const About = () => {
         />
 
         {/* Image Section */}
-        <figure className="mb-8 lg:mb-0 relative w-72 h-72 md:w-96 md:h-96">
+        <figure className="mb-8 lg:mb-0 relative w-96 h-72 md:w-96 md:h-96">
           <Image
             src="/images/main.png"
             alt="Bhawana Jadaun's Profile"
-            width={300} // Explicit width
-            height={300} // Explicit height
+            width={400} // Explicit width
+            height={400} // Explicit height
             className="rounded-lg shadow-xl object-cover"
           />
         </figure>
 
         {/* Text Section */}
-        <article className="max-w-2xl text-center lg:text-left space-y-6">
+        <article className="max-w-3xl text-center lg:text-left space-y-6">
           <header>
             <Header as="h3" size="lg" className="tracking-wide text-gray-400">
               MORE ABOUT ME

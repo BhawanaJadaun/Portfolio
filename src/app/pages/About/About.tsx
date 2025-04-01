@@ -30,7 +30,7 @@ const About = () => {
   return (
     <main
       id="about"
-      className="bg-gradient-to-b from-black to-gray-900 text-white px-6 md:px-12 py-12 md:py-20 lg:py-24 relative overflow-hidden"
+      className="bg-gradient-to-b from-black to-gray-900 text-white px-12 md:px-12 py-12 md:py-20 lg:px-16 lg:py-24 relative overflow-hidden"
     >
       <section className="flex flex-col-reverse lg:flex-row-reverse items-center justify-center gap-8">
         {/* Custom Cursor (Hidden on Small Screens) */}

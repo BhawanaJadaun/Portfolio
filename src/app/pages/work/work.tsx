@@ -12,9 +12,7 @@ import Header from "../../components/ui/Header";
 const Work = () => {
   return (
     <section id="work" className="p-5 bg-black/80 mt-12">
-
       <div data-aos="fade-right" className="text-center mt-5 sm:mt-20">
-
         <Header
           as="h3"
           size="sm"
@@ -80,11 +78,11 @@ const Work = () => {
         <div
           key={index}
           data-aos="fade-up"
-          className="flex flex-col-reverse md:flex-row gap-20 mt-8"
+          className="flex flex-col-reverse md:flex-row md:items-center gap-10 lg:gap-10 mt-8"
         >
           {/* Image Container */}
           <div
-            className={`p-3 sm:p-5 rounded-2xl border-2 md:w-lg ${project.bgColor}`}
+            className={`p-3 sm:p-5 rounded-2xl border-2 md:w-lg lg:w-xl ${project.bgColor}`}
           >
             <Image
               src={project.image}
@@ -96,7 +94,7 @@ const Work = () => {
           </div>
 
           {/* Text Content */}
-          <div className="flex flex-col justify-center gap-5">
+          <div className="flex flex-col justify-center gap-4 md:max-w-[500px] lg:max-w-[600px]">
             <h1 className="text-3xl flex items-center gap-2 text-sky-500">
               <MdOutlineHorizontalRule className="w-7 font-extrabold" />
               {project.title}
@@ -118,12 +116,12 @@ const Work = () => {
               ))}
             </ul>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-2 mt-4 p-2">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-1 lg:gap-1.5 xl:gap-2 mt-4 p-2">
               {project.techStack.map(({ icon: Icon, name }, i) => (
                 <div
                   key={i}
-                  className="relative px-3 sm:px-4 py-1.5 sm:py-2 rounded-3xl border-2 border-gray-700 text-white flex items-center gap-1.5 sm:gap-2 bg-black/5 
-                 before:absolute before:inset-0 before:bg-gradient-to-r before:from-sky-500/30 before:via-transparent before:to-sky-500/30 before:blur-sm before:rounded-3xl"
+                  className="relative px-3 sm:px-4 py-1.5 sm:py-2 rounded-3xl border-2 border-gray-700 text-white flex items-center gap-1 sm:gap-1.5 bg-black/5 
+       before:absolute before:inset-0 before:bg-gradient-to-r before:from-sky-500/30 before:via-transparent before:to-sky-500/30 before:blur-sm before:rounded-3xl"
                 >
                   <Icon className="text-sky-400 text-sm sm:text-base" />
                   <span className="text-xs sm:text-sm font-semibold">
@@ -140,4 +138,3 @@ const Work = () => {
 };
 
 export default Work;
-

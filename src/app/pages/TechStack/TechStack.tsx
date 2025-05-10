@@ -28,11 +28,11 @@ import Header from "../../components/ui/Header";
 
 const TechStack = () => {
   return (
-    <section
+    <section data-aos="fade-right"
       id="tech"
       className="flex flex-col items-center text-center bg-black/80"
     >
-      <header data-aos="fade-right" className="mt-7 text-center">
+      <header  className="mt-7 text-center">
         <Header
           as="h3"
           size="sm"
@@ -131,7 +131,7 @@ const TechStack = () => {
             ],
           },
         ].map((section, index) => (
-          <article data-aos="fade-right" key={index} className="mt-5">
+          <article  key={index} className="mt-5">
             <h2 className="text-2xl text-left font-extrabold drop-shadow-[0_0_20px_rgba(255,255,255,0.9)] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent uppercase tracking-wider transition-transform duration-300 ease-in-out hover:scale-105">
               {section.title}
             </h2>

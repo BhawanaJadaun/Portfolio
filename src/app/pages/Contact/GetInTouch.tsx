@@ -24,7 +24,6 @@ const GetInTouch = () => {
 
       {/* Main Content */}
       <main
-        data-aos="fade-right"
         className="w-full max-w-4xl flex flex-col items-center text-center"
       >
         <header>

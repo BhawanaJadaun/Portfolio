@@ -53,6 +53,47 @@ const Work = () => {
           link: "https://prescriptofrontend.vercel.app/",
           github: "https://github.com/BhawanaJadaun/Prescripto",
         },
+           {
+          title: "Prescripto Admin Panel",
+          description:
+            "Developed Prescripto Admin Panel app built with the MERN stack.",
+          features: [
+            "Admin panel where admins can add and update doctor profiles.",
+            "Admin firstly login with their email and password after visit page",
+            "Admin can see appointment of user and can cancel and complete",
+          ],
+          techStack: [
+            { icon: FaReact, name: "React.js" },
+            { icon: RiTailwindCssFill, name: "Tailwind CSS" },
+            { icon: FaNodeJs, name: "Node.js" },
+            { icon: SiExpress, name: "Express.js" },
+          ],
+          image: "/images/adminpanel.png",
+          bgColor: "bg-sky-900/40 border-sky-950",
+          link: "https://admin-iota-coral.vercel.app/",
+          github: "https://github.com/BhawanaJadaun/Prescripto",
+        },
+              {
+          title: "Prescripto Doctor Panel",
+          description:
+            "Developed Prescripto Doctor Panel app built with the MERN stack.",
+          features: [
+            "doctor panel where doctor can add and update thier profiles.",
+            "doctor firstly login with their email and password after visit page",
+            "doctor can see appointment of user and can cancel and complete",
+            "doctor can see dashboard and latest bookings",
+          ],
+          techStack: [
+            { icon: FaReact, name: "React.js" },
+            { icon: RiTailwindCssFill, name: "Tailwind CSS" },
+            { icon: FaNodeJs, name: "Node.js" },
+            { icon: SiExpress, name: "Express.js" },
+          ],
+          image: "/images/doctorpanel.png",
+          bgColor: "bg-sky-900/40 border-sky-950",
+          link: "https://admin-iota-coral.vercel.app/",
+          github: "https://github.com/BhawanaJadaun/Prescripto",
+        },
         {
           title: "FitHub",
           description:
@@ -71,7 +112,30 @@ const Work = () => {
           ],
           image: "/images/FitHub.png",
           bgColor: "bg-cyan-800/45 border-cyan-950",
-          link: "https://your-link-here.com",
+          link: "https://fithub-frontend-blush.vercel.app/",
+          github: "https://github.com/BhawanaJadaun/Fithub",
+        },
+        {
+          title: "FitHub Admin Panel",
+          description:
+            "FitHub Admin Panel is a gym listing platform where admin can add user gym and see enquiry of user.",
+          features: [
+            "Users can explore listed gyms.",
+            "Admin can update profile and add it",
+            "View user enquiries and respond directly via email using a one-click mail button.",
+            "Update your admin profile with personal and business details.",
+            "Only authenticated admins with main verification can update profile or gyms, others can view only."
+          ],
+          techStack: [
+            { icon: FaReact, name: "React.js" },
+            { icon: RiTailwindCssFill, name: "Tailwind CSS" },
+            { icon: FaNodeJs, name: "Node.js" },
+            { icon: SiExpress, name: "Express.js" },
+            { icon: SiShadcnui, name: "ShadCN UI" },
+          ],
+          image: "/images/FitAdmin.png",
+          bgColor: "bg-cyan-800/45 border-cyan-950",
+          link: "https://fithub-ruddy.vercel.app/",
           github: "https://github.com/BhawanaJadaun/Fithub",
         },
       ].map((project, index) => (

@@ -131,7 +131,7 @@ const TechStack = () => {
             ],
           },
         ].map((section, index) => (
-          <article  data-aos="fade-left" key={index} className="mt-5">
+          <article  key={index} className="mt-5">
             <h2 className="text-2xl text-left font-extrabold drop-shadow-[0_0_20px_rgba(255,255,255,0.9)] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent uppercase tracking-wider transition-transform duration-300 ease-in-out hover:scale-105">
               {section.title}
             </h2>
